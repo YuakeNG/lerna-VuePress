@@ -12,6 +12,7 @@
     "test": "lerna run test",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
+    "docs:dev": "vuepress dev docs",
     "publish": "lerna publish",
     "lint": "markdownlint README.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
