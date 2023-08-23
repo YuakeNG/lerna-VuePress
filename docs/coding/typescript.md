@@ -6,7 +6,7 @@ tags:
   - 编码规范
 author:
   name: Yuake
-  link: https://github.com/YuakeNG/lerna-VuePress
+  link: https://github.com/YuakeNG/vue-lerna
 ---
 
 # TypeScript 编码规范

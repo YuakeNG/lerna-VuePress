@@ -116,13 +116,13 @@ export default defineConfig4CustomTheme({
     footer: {
       createYear: 2023,
       copyrightInfo:
-        'encode studio | <a href="https://github.com/YuakeNG/lerna-VuePress" target="_blank">github</a>',
+        'encode studio | <a href="https://github.com/YuakeNG/vue-lerna" target="_blank">github</a>',
     },
 
     extendFrontmatter: {
       author: {
         name: "Yuake",
-        link: "https://github.com/YuakeNG/lerna-VuePress",
+        link: "https://github.com/YuakeNG/vue-lerna",
       },
     },
   },

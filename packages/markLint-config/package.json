@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "yuake <415425666@qq.com>",
-  "homepage": "https://github.com/YuakeNG/lerna-VuePress#readme",
+  "homepage": "https://github.com/YuakeNG/vue-lerna#readme",
   "license": "ISC",
   "main": "index.json",
   "directories": {
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YuakeNG/lerna-VuePress.git"
+    "url": "git+https://github.com/YuakeNG/vue-lerna.git"
   },
   "scripts": {
     "test": "node ./__tests__/markLint-config.test.js"
   },
   "bugs": {
-    "url": "https://github.com/YuakeNG/lerna-VuePress/issues"
+    "url": "https://github.com/YuakeNG/vue-lerna/issues"
   }
 }
