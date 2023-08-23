@@ -110,13 +110,13 @@ export default defineConfig4CustomTheme({
       },
     ],
     logo: "/img/logo.png",
-    repo: "encode-studio-fe/lerna-VuePress",
+    repo: "encode-studio-fe/fe-spec",
     searchMaxSuggestions: 10,
     docsDir: "docs",
     footer: {
       createYear: 2023,
       copyrightInfo:
-        'encode studio | <a href="https://github.com/encode-studio-fe/lerna-VuePress" target="_blank">github</a>',
+        'encode studio | <a href="https://github.com//lerna-VuePress/fe-spec" target="_blank">github</a>',
     },
 
     extendFrontmatter: {
