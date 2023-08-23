@@ -1,0 +1,26 @@
+{
+  "name": "marklint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yuake <415425666@qq.com>",
+  "homepage": "https://github.com/YuakeNG/lerna-VuePress#readme",
+  "license": "ISC",
+  "main": "index.json",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuakeNG/lerna-VuePress.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/markLint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/YuakeNG/lerna-VuePress/issues"
+  }
+}
