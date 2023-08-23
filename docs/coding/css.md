@@ -6,7 +6,7 @@ tags:
   - 编码规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # CSS 编码规范

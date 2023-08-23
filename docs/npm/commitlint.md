@@ -6,13 +6,13 @@ tags:
   - 工程规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # encode-fe-commitlint-config
 
 :::tip
-印客学院 Git 规范
+Yuake 学编程 Git 规范
 :::
 
 支持配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。

@@ -6,13 +6,13 @@ tags:
   - 工程规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # encode-fe-stylelint-config
 
 :::tip
-印客学院 CSS 规范
+Yuake 学编程 CSS 规范
 :::
 
 支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。

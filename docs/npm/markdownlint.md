@@ -6,13 +6,13 @@ tags:
   - 工程规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # encode-fe-markdownlint-config
 
 :::tip
-印客学院 文档 规范
+Yuake 学编程 文档 规范
 :::
 
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。

@@ -6,7 +6,7 @@ tags:
   - 编码规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # HTML 编码规范
@@ -162,7 +162,7 @@ author:
   ```html
   <head>
     <meta charset="utf-8" />
-    <title>印客学院</title>
+    <title>Yuake学编程</title>
   </head>
   ```
 
@@ -176,7 +176,7 @@ author:
   <!DOCTYPE html>
   <html>
     <head>
-      <title>印客学院</title>
+      <title>Yuake学编程</title>
     </head>
     <body>
       <img src="images/company-logo.png" alt="Company" />
@@ -340,13 +340,13 @@ author:
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="印客学院 - 一千个职业梦想的赞助商" />
-    <meta name="keyword" content="印客学院" />
+    <meta name="description" content="Yuake学编程 - 一千个职业梦想的赞助商" />
+    <meta name="keyword" content="Yuake学编程" />
     <meta
       name="viewport"
       content="width=device-width, minimum-scale=1.0, viewport-fit=cover"
     />
-    <title>印客学院</title>
+    <title>Yuake学编程</title>
     <link rel="stylesheet" href="example.css" />
   </head>
   <body>

@@ -6,13 +6,13 @@ tags:
   - 工程规范
 author:
   name: Yuake
-  link: https://github.com/encode-studio-fe/fe-spec
+  link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
 # encode-fe-eslint-config
 
 :::tip
-印客学院 JavaScript TypeScript Node 规范
+Yuake 学编程 JavaScript TypeScript Node 规范
 :::
 
 提供了多套配置文件以支持 `JavaScript`、`TypeScript`、`React`、`Vue`、`Node.js` 等多种项目类型。
