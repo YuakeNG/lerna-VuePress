@@ -5,7 +5,7 @@ categories:
 tags:
   - 编码规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -66,7 +66,10 @@ author:
   设置 `viewport-fit` 设置为“cover”来兼容 `iPhone X` 的刘海屏，[了解更多](https://webkit.org/blog/7929/designing-websites-for-iphone-x/) 。
 
   ```html
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, viewport-fit=cover" />
+  <meta
+    name="viewport"
+    content="width=device-width, minimum-scale=1.0, viewport-fit=cover"
+  />
   ```
 
 ### 1.4. 资源加载
@@ -339,7 +342,10 @@ author:
     <meta charset="utf-8" />
     <meta name="description" content="印客学院 - 一千个职业梦想的赞助商" />
     <meta name="keyword" content="印客学院" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, viewport-fit=cover"
+    />
     <title>印客学院</title>
     <link rel="stylesheet" href="example.css" />
   </head>

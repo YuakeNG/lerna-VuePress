@@ -5,7 +5,7 @@ categories:
 tags:
   - 工程规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -31,7 +31,7 @@ npm install encode-fe-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode-fe-commitlint-config'],
+  extends: ["encode-fe-commitlint-config"],
 };
 ```
 

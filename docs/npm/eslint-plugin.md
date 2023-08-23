@@ -5,7 +5,7 @@ categories:
 tags:
   - 工程规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -24,9 +24,9 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['encode-fe-eslint-config'],
+  plugin: ["encode-fe-eslint-config"],
   rules: {
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    "encode-fe-eslint-plugin/no-secret-info": "error",
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:encode-fe-eslint-plugin/recommended',
+  extends: "plugin:encode-fe-eslint-plugin/recommended",
 };
 ```
 
@@ -108,10 +108,10 @@ var jsx = <img src="http://chenghuai.com">;
 **错误**代码示例:
 
 ```js
-var accessKeySecret = 'xxxx';
+var accessKeySecret = "xxxx";
 
 var client = {
-  accessKeyToken: 'xxxx',
+  accessKeyToken: "xxxx",
 };
 ```
 

@@ -5,7 +5,7 @@ categories:
 tags:
   - 工程规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -76,7 +76,10 @@ npm i -D eslint-plugin-jsx-a11y
 
 ```json
 {
-  "extends": ["encode-fe-eslint-config/react", "encode-fe-eslint-config/jsx-a11y"]
+  "extends": [
+    "encode-fe-eslint-config/react",
+    "encode-fe-eslint-config/jsx-a11y"
+  ]
 }
 ```
 
@@ -203,7 +206,10 @@ npm i -D  eslint-plugin-jsx-a11y
 
 ```json
 {
-  "extends": ["encode-fe-eslint-config/typescript/react", "encode-fe-eslint-config/jsx-a11y"]
+  "extends": [
+    "encode-fe-eslint-config/typescript/react",
+    "encode-fe-eslint-config/jsx-a11y"
+  ]
 }
 ```
 

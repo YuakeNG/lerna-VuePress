@@ -8,7 +8,7 @@ export default defineConfig4CustomTheme({
       description: "前端编码规范工程化",
     },
   },
-  base: "/lerna-VuePress/",
+  base: "/vue-lerna/",
   themeConfig: {
     nav: [
       { text: "首页", link: "/index.md" },
@@ -116,13 +116,13 @@ export default defineConfig4CustomTheme({
     footer: {
       createYear: 2023,
       copyrightInfo:
-        'encode studio | <a href="https://github.com//lerna-VuePress/fe-spec" target="_blank">github</a>',
+        'encode studio | <a href="https://github.com/YuakeNG/lerna-VuePress" target="_blank">github</a>',
     },
 
     extendFrontmatter: {
       author: {
-        name: "澄怀",
-        link: "https://github.com/encode-studio-fe/fe-sepc",
+        name: "Yuake",
+        link: "https://github.com/YuakeNG/lerna-VuePress",
       },
     },
   },

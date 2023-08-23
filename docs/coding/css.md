@@ -5,7 +5,7 @@ categories:
 tags:
   - 编码规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -282,12 +282,12 @@ author:
 
   ```css
   /* bad */
-  input[type='text'] {
+  input[type="text"] {
     height: 20px;
   }
 
   /* good */
-  input[type='text'] {
+  input[type="text"] {
     height: 20px;
   }
   ```
@@ -419,7 +419,7 @@ author:
     border: 1px solid #e5e5e5;
 
     /* 排版 */
-    font: normal 13px 'Helvetica Neue', sans-serif;
+    font: normal 13px "Helvetica Neue", sans-serif;
     line-height: 1.5;
     color: #333;
     text-align: center;
@@ -545,7 +545,7 @@ author:
   - 样式声明
 
   ```css
-  @import 'common/theme.scss';
+  @import "common/theme.scss";
 
   $color-red: #f0f0f0;
 

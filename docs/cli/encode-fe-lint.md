@@ -5,7 +5,7 @@ categories:
 tags:
   - 脚手架规范
 author:
-  name: 澄怀
+  name: Yuake
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
@@ -123,7 +123,7 @@ npm install encode-fe-lint --save
 (await encode) -
   fe -
   lint.init({
-    eslintType: 'react',
+    eslintType: "react",
     enableESLint: true,
     enableStylelint: true,
     enableMarkdownlint: true,
@@ -192,8 +192,8 @@ module.exports = {
     createDefaultProgram: false, // for lint performance
   },
   rules: {
-    '@typescript-eslint/dot-notation': 0, // for lint performance
-    '@typescript-eslint/restrict-plus-operands': 0, // for lint performance
+    "@typescript-eslint/dot-notation": 0, // for lint performance
+    "@typescript-eslint/restrict-plus-operands": 0, // for lint performance
   },
 };
 ```
