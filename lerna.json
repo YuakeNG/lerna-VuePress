@@ -6,6 +6,9 @@
   ],
   "npmClient": "pnpm",
   "useWorkspaces": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "command": {
     "publish": {
       "npmClient": "npm",

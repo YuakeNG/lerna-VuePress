@@ -12,7 +12,7 @@ author:
 # encode-fe-stylelint-config
 
 :::tip
-Yuake 学编程 CSS 规范
+CSS 规范
 :::
 
 支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
