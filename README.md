@@ -1,4 +1,5 @@
 # vue-lerna.github.io
+
 ## :star: 设计目的
 
 随着前端技术的发展，前端项目正在变得越来越复杂。`JavaScript` 作为一门弱类型解释性编程语言，其灵活多变的语法极大的提高了前端开发效率，但同时也存在一系列问题。在大型项目开发过程中，代码维护所占的时间比重往往大于新功能的开发。因此编写符合团队编码规范的代码是至关重要的。 一致性的代码规范可以增强团队开发协作效率、提高代码质量、减少遗留系统维护的负担。但是每个人的代码编写喜好不同，代码风格也会迥然不同，若要一个团队内所有的成员都能发挥最大程度的价值，一个具有普适性的标准是必不可少的。
@@ -23,13 +24,13 @@
 
 我们引入了多个业界流行的 `Linter` 作为规范文档的配套工具，并根据规范内容定制了对应的规则包，它们包括：
 
-| 规范                                                              | Lint 工具                                                      | NPM 包                                                                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
-| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
-| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
-| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
-| Eslint 插件                                                       | [ESlint Plugin](https://eslint.org/docs/latest/extend/plugins) | [encode-fe-eslint-plugin](https://www.npmjs.com/package/encode-fe-eslint-plugin)             |
+| 规范                                                              | Lint 工具                                                      | NPM 包                                                                                   |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)         |
+| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)   |
+| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config) |
+| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [marklint-config](https://www.npmjs.com/package/marklint-config)                         |
+| Eslint 插件                                                       | [ESlint Plugin](https://eslint.org/docs/latest/extend/plugins) | [yuake-commitlint-config](https://www.npmjs.com/package/yuake-commitlint-config)         |
 
 [encode-fe-lint](https://www.npmjs.com/package/encode-fe-lint) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规范的成本。
 

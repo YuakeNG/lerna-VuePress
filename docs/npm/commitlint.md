@@ -22,7 +22,7 @@ Git 规范
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install encode-fe-commitlint-config @commitlint/cli --save-dev
+npm install yuake-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
