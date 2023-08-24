@@ -110,7 +110,7 @@ export default defineConfig4CustomTheme({
       },
     ],
     logo: "/img/logo.png",
-    repo: "encode-studio-fe/fe-spec",
+    repo: "YuakeNG/vue-lerna.github.io",
     searchMaxSuggestions: 10,
     docsDir: "docs",
     footer: {
