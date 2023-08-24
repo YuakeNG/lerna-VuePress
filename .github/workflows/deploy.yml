@@ -28,5 +28,5 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.vuepress/dist
-          commit-message: "修改信息"
-        #   access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+        #   commit-message: "修改信息"
