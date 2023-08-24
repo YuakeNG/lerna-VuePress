@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "yuake <415425666@qq.com>",
-  "homepage": "https://github.com/YuakeNG/react-Hook#readme",
+  "homepage": "https://github.com/YuakeNG/vue-lerna.github.io",
   "license": "ISC",
   "main": "index.js",
   "directories": {
@@ -15,12 +15,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YuakeNG/react-Hook.git"
+    "url": "git+https://github.com/YuakeNG/vue-lerna.github.io"
   },
   "scripts": {
     "test": "node ./__tests__/commitlint-config.test.js"
   },
   "bugs": {
-    "url": "https://github.com/YuakeNG/react-Hook/issues"
-  }
+    "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
+  },
+  "gitHead": "81838e737597a3b66b85db919ccc29a116fc68ca"
 }
