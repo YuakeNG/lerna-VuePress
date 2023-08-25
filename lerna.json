@@ -5,7 +5,6 @@
     "packages/*"
   ],
   "npmClient": "pnpm",
-  "useWorkspaces": true,
   "publishConfig": {
     "access": "public"
   },
