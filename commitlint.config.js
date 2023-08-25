@@ -1,4 +1,3 @@
 module.exports = {
-  extends: ['Yuakecommitlint-config'],
-  parserPreset: 'conventional-changelog-conventionalcommits'
+  extends: ['yuake-commitlint-config'],
 };

@@ -50,9 +50,6 @@ importers:
       vuepress-plugin-zooming:
         specifier: ^1.1.7
         version: 1.1.7
-      yuake-commitlint-config:
-        specifier: workspace:^
-        version: link:packages/Yuakecommitlint-config
 
   packages/YuakeStyle-lint-config:
     devDependencies:
