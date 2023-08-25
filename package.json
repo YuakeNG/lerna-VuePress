@@ -37,13 +37,11 @@
     "vue-template-compiler": "^2.7.14",
     "vuepress": "^1.9.9",
     "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7"
+    "vuepress-plugin-zooming": "^1.1.7",
+    "yuake-commitlint-config": "workspace:^"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "yuake-commitlint-config": "workspace:^"
   }
 }
