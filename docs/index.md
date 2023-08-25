@@ -38,13 +38,13 @@ features:
 
 我们引入了多个业界流行的 `Linter` 作为规范文档的配套工具，并根据规范内容定制了对应的规则包，它们包括：
 
-| 规范                                                              | Lint 工具                                                      | NPM 包                                                                                       |
-| ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
-| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
-| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
-| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
-| Eslint 插件                                                       | [ESlint Plugin](https://eslint.org/docs/latest/extend/plugins) | [encode-fe-eslint-plugin](https://www.npmjs.com/package/encode-fe-eslint-plugin)             |
+| 规范                                                              | Lint 工具                                                      | NPM 包                                                                                 |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)       |
+| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config) |
+| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [yuake-commitlint-config](https://www.npmjs.com/package/yuake-commitlint-config)       |
+| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [Yuake-markdownlint-config](https://www.npmjs.com/package/marklint-config)             |
+| Eslint 插件                                                       | [ESlint Plugin](https://eslint.org/docs/latest/extend/plugins) | [encode-fe-eslint-plugin](https://www.npmjs.com/package/encode-fe-eslint-plugin)       |
 
 [encode-fe-lint](https://www.npmjs.com/package/encode-fe-lint) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规范的成本。
 
@@ -55,6 +55,6 @@ features:
 ## :email: 联系
 
 - **QQ 邮箱**: <415425666@qq.com>
-- **GitHub**: <https://yuakeng.github.io>
+- **GitHub**: <https://github.com/YuakeNG/vue-lerna.github.io>
 
 </br>

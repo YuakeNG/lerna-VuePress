@@ -111,6 +111,7 @@ export default defineConfig4CustomTheme({
     ],
     logo: "/img/logo.png",
     repo: "YuakeNG/vue-lerna.github.io",
+    favicon: "/img/logo.png",
     searchMaxSuggestions: 10,
     docsDir: "docs",
     footer: {

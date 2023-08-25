@@ -1,6 +1,7 @@
 'use strict';
 
-const commitlintConfig = require('..');
+const commitlintConfig = require('../index');
+// console.log(commitlintConfig, "commitlintConfig");
 const assert = require('assert').strict;
 
 assert.strictEqual(commitlintConfig(), 'Hello from commitlintConfig');

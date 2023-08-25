@@ -10,9 +10,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
+  "files": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YuakeNG/vue-lerna.github.io"
@@ -23,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
   },
-  "gitHead": "983eaad9a8c9bc6c7012f5522ed1123e88befe97"
+  "gitHead": "983eaad9a8c9bc6c7012f5522ed1123e88befe97",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
 }
