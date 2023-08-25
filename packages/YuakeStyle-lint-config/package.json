@@ -1,0 +1,28 @@
+{
+  "name": "yuakestyle-lint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yuake",
+  "homepage": "hhttps://github.com/YuakeNG/vue-lerna.github.io#readme",
+  "license": "ISC",
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuakeNG/vue-lerna.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
+  }
+}
