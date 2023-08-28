@@ -1,5 +1,5 @@
 ---
-title: encode-fe-stylelint-config
+title: yuake-fe-stylelint-config
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
-# encode-fe-stylelint-config
+# yuake-fe-stylelint-config
 
 :::tip
 CSS 规范
@@ -22,7 +22,7 @@ CSS 规范
 需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
 ```bash
-npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
+npm install yuake-fe-stylelint-config stylelint stylelint-scss --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "encode-fe-stylelint-config"
+  "extends": "yuake-fe-stylelint-config"
 }
 ```

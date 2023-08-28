@@ -26,6 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "husky": "^8.0.3",
+    "install": "^0.13.0",
     "lerna": "^6.6.2",
     "markdownlint": "^0.28.1",
     "pnpm": "^8.6.0",
@@ -37,7 +38,8 @@
     "vue-template-compiler": "^2.7.14",
     "vuepress": "^1.9.9",
     "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7"
+    "vuepress-plugin-zooming": "^1.1.7",
+    "yuake-commitlint-config": "^0.0.2"
   },
   "publishConfig": {
     "access": "public",

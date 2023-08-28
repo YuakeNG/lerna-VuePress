@@ -1,5 +1,5 @@
 {
-  "name": "marklint-config",
+  "name": "yauke-fe-marklint-config",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "yuake <415425666@qq.com>",
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
   },
-  "gitHead": "f2c00a22f18a44b5bd89d50800a64ab9aa1836fe"
+  "gitHead": "87b77d2b41db838bef2e3979d6f3a48852670e53"
 }

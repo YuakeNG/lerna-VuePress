@@ -1,5 +1,5 @@
 ---
-title: encode-fe-commitlint-config
+title: yuake-commitlint-config
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
-# encode-fe-commitlint-config
+# yuake-commitlint-config
 
 :::tip
 Git 规范
@@ -31,7 +31,7 @@ npm install yuake-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ["encode-fe-commitlint-config"],
+  extends: ['yuake-commitlint-config'],
 };
 ```
 

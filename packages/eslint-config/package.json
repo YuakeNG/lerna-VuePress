@@ -1,8 +1,8 @@
 {
-  "name": "encode-fe-eslint-config",
+  "name": "yauke-fe-eslint-config",
   "version": "0.0.3",
   "main": "index.js",
-  "description": "印客学院 JavaScript TypeScript Node 规范",
+  "description": " JavaScript TypeScript Node 规范",
   "keywords": [
     "encode",
     "javaScript",
@@ -15,15 +15,15 @@
     "test": "mocha ./__tests__/*.test.js --timeout 5000",
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
-  "author": "chenghuai",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "author": "yuake",
+  "homepage": "https://github.com/YuakeNG/vue-lerna.github.io#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/YuakeNG/vue-lerna.github.io"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+    "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -45,5 +45,5 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "f2c00a22f18a44b5bd89d50800a64ab9aa1836fe"
+  "gitHead": "87b77d2b41db838bef2e3979d6f3a48852670e53"
 }

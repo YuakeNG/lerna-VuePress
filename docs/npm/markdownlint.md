@@ -1,5 +1,5 @@
 ---
-title: encode-fe-markdownlint-config
+title: yuake-fe-markdownlint-config
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
-# encode-fe-markdownlint-config
+# yuake-fe-markdownlint-config
 
 :::tip
 文档 规范
@@ -22,7 +22,7 @@ author:
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install encode-fe-markdownlint-config markdownlint --save-dev
+npm install yuake-fe-markdownlint-config markdownlint --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install encode-fe-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "encode-fe-markdownlint-config"
+  "extends": "yuake-fe-markdownlint-config"
 }
 ```

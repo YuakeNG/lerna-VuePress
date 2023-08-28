@@ -1,5 +1,5 @@
 ---
-title: encode-fe-eslint-plugin
+title: yuake-fe-eslint-plugin
 categories:
   - 工程规范
 tags:
@@ -9,12 +9,12 @@ author:
   link: https://github.com/YuakeNG/vue-lerna.github.io
 ---
 
-# encode-fe-eslint-plugin
+# yuake-fe-eslint-plugin
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install encode-fe-eslint-plugin eslint --save-dev
+$ npm install yuake-fe-eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -24,9 +24,9 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ["encode-fe-eslint-config"],
+  plugin: ['yuake-fe-eslint-plugin'],
   rules: {
-    "encode-fe-eslint-plugin/no-secret-info": "error",
+    'yuake-fe-eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: "plugin:encode-fe-eslint-plugin/recommended",
+  extends: 'plugin:yuake-fe-eslint-plugin/recommended',
 };
 ```
 
@@ -61,8 +61,8 @@ module.exports = {
 **错误代码**示例:
 
 ```js
-var test = 'http://chenghuai.com';
-var jsx = <img src="http://chenghuai.com">;
+var test = 'http://yuake.com';
+var jsx = <img src="http://yuake.com">;
 ```
 
 #### 何时不适用
@@ -108,10 +108,10 @@ var jsx = <img src="http://chenghuai.com">;
 **错误**代码示例:
 
 ```js
-var accessKeySecret = "xxxx";
+var accessKeySecret = 'xxxx';
 
 var client = {
-  accessKeyToken: "xxxx",
+  accessKeyToken: 'xxxx',
 };
 ```
 
