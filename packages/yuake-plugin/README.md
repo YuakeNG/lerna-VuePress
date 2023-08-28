@@ -1,11 +1,11 @@
-# encode-fe-eslint-plugin
+# yuake-fe-eslint-plugin
 
 ## 安装
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install encode-fe-eslint-plugin eslint --save-dev
+$ npm install yuake-fe-eslint-plugin eslint --save-dev
 ```
 
 ## 使用
@@ -15,9 +15,9 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ['encode-fe-eslint-config'],
+  plugin: ['yuake-fe-eslint-config'],
   rules: {
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    'yuake-fe-eslint-plugin/no-secret-info': 'error',
   },
 };
 ```
@@ -27,7 +27,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:encode-fe-eslint-plugin/recommended',
+  extends: 'plugin:yuake-fe-eslint-plugin/recommended',
 };
 ```
 
