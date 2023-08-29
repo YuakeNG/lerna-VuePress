@@ -8,7 +8,7 @@ import log from '../utils/log';
 import conflictResolve from '../utils/conflict-resolve';
 import generateTemplate from '../utils/generate-template';
 import { PROJECT_TYPES, PKG_NAME } from '../utils/constants';
-import type { InitOptions, PKG } from '../types';
+import type { InitOptions, PKG } from '../type';
 
 let step = 0;
 /**
