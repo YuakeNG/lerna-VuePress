@@ -15,7 +15,7 @@
       "registry": "https://registry.npmjs.org"
     },
     "packages": [
-      "packages/* "
+      "packages/yuake-fe-lint-cli "
     ]
   }
 }
