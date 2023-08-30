@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
   },
-  "gitHead": "c0660704952f767478c6417c6653ab656b104350",
+  "gitHead": "a80f0e2ccf8bcfa8e4103db32433b68a68d1c247",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   }
