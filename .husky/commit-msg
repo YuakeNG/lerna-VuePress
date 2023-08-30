@@ -1,4 +1,10 @@
-#!/usr/bin/env sh
-# . "$(dirname -- "$0")/_/husky.sh"
+#!/bin/bash
 
-# npx --no-intsall commitlint --edit
+DIR="$(dirname -- "$0")"
+CMD="npx commitlint --edit"
+
+# 将参数转义，确保传递给命令的文件路径正确解析
+FILE_PATH=$(printf "%q" "$1")
+
+cd "$DIR" || exit 1
+eval "$CMD $FILE_PATH"
