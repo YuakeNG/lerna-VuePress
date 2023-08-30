@@ -1,6 +1,7 @@
 import ora from 'ora';
 import initAction from './action/init';
 import type { InitOptions,ScanOptions } from './type';
+import printReport from './utils/print-report';
 import scanAction from './action/scan';
 import { PKG_NAME, } from './utils/constants';
 
