@@ -80,10 +80,10 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
-    "yauke-fe-eslint-config": "^1.2.3",
-    "yauke-fe-marklint-config": "^1.2.3",
-    "yuake-commitlint-config": "^1.2.3",
-    "yuakestyle-lint-config": "^1.2.3"
+    "yauke-fe-eslint-config": "workspace:^",
+    "yauke-fe-marklint-config": "workspace:^",
+    "yuake-commitlint-config": "workspace:^",
+    "yuakestyle-lint-config": "workspace:^"
   },
   "author": "yuake",
   "homepage": "https://github.com/YuakeNG/vue-lerna.github.io#readme",
