@@ -1,13 +1,7 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "1.2.3",
-  "packages": [
-    "packages/*"
-  ],
+  "version": "1.0.1",
   "npmClient": "pnpm",
-  "publishConfig": {
-    "access": "public"
-  },
+  "useWorkspaces": true,
   "command": {
     "publish": {
       "npmClient": "npm",
@@ -15,7 +9,7 @@
       "registry": "https://registry.npmjs.org"
     },
     "packages": [
-      "packages/yuake-fe-lint-cli "
+      "packages/*"
     ]
   }
 }
