@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['yuake-commitlint-config'],
+  extends: ['./packages/Yuakecommitlint-config/index.js'],
 };
