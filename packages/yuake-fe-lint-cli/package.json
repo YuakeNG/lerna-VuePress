@@ -80,10 +80,10 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
-    "yauke-fe-eslint-config": "workspace:^",
-    "yauke-fe-marklint-config": "workspace:^",
-    "yuake-commitlint-config": "workspace:^",
-    "yuakestyle-lint-config": "workspace:^"
+    "yauke-fe-eslint-config": "^0.0.1-1",
+    "yauke-fe-marklint-config": "^0.0.1-1",
+    "yuake-commitlint-config": "^0.0.1-1",
+    "yuakestyle-lint-config": "^0.0.1-1"
   },
   "author": "yuake",
   "homepage": "https://github.com/YuakeNG/vue-lerna.github.io#readme",
@@ -95,5 +95,5 @@
   "bugs": {
     "url": "https://github.com/YuakeNG/vue-lerna.github.io/issues"
   },
-  "gitHead": "83f8cd7637e021e60b4fa1f9e0ff47c3c348de5e"
+  "gitHead": "3feec876fae556037228a044c483dd26a1d469ad"
 }
