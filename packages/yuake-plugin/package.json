@@ -1,6 +1,6 @@
 {
   "name": "yuake-plugin",
-  "version": "1.2.3",
+  "version": "0.0.1-1",
   "description": "eslint插件",
   "scripts": {
     "test": "jest",

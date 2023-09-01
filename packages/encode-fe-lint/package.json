@@ -1,6 +1,6 @@
 {
   "name": "yue-specification",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -47,10 +47,6 @@
     "commander": "^6.2.1",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "yuake-commitlint-config": "workspace:^",
-    "yauke-fe-eslint-config": "workspace:^",
-    "yuake-fe-markdownlint-config": "workspace:^",
-    "yuakestyle-lint-config": "workspace:^",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -78,7 +74,11 @@
     "stylelint-scss": "^4.1.0",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
-    "vue-eslint-parser": "^7.3.0"
+    "vue-eslint-parser": "^7.3.0",
+    "yauke-fe-eslint-config": "workspace:^",
+    "yuake-commitlint-config": "workspace:^",
+    "yuake-fe-markdownlint-config": "workspace:^",
+    "yuakestyle-lint-config": "workspace:^"
   },
   "author": "chenghuai",
   "homepage": "https://github.com/YuakeNG/vue-lerna.github.io#readme",
